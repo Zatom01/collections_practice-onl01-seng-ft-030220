@@ -66,7 +66,7 @@ end
 def add_s(array)
   array.each do |element|
 
-    element.insert 2,"s"
+    element.insert element[-1],"s"
   end
 
 
