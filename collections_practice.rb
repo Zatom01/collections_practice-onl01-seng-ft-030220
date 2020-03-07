@@ -64,10 +64,12 @@ end
 
 
 def add_s(array)
-  array.each_with_index.collect do |item,index|
-    item[1].
-  
-  
+  array.each do |element|
+
+    element.insert 2,"s"
+  end
+
+
 end
 
 
