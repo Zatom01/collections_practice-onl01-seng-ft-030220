@@ -44,11 +44,11 @@ def kesha_maker(array)
 end
 
 
-
 def find_a(array)
-  array.s
+  array.select do |item|
+    item.start_with?('a')
+  end
 end
-
 
 
 
