@@ -66,7 +66,7 @@ end
 def add_s(array)
   array.each do |element|
 
-    if array.index[element]=2 
+    if array.index[element]==2 
       element=element
     
     else
