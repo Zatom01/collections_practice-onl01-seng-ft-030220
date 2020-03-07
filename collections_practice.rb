@@ -55,7 +55,7 @@ end
 def sum_array(array)
   sum=0
   array.each do |item|
-    item=item+sum
+    sum=item+sum
   end
   
   return sum
