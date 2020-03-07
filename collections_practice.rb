@@ -70,7 +70,7 @@ def add_s(array)
       element=element
     
     else
-      element<<'s'
+      element.push("s")
 
     end
 
